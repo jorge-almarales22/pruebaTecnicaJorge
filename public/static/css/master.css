@@ -1,0 +1,66 @@
+.ul, .li
+{
+    list-style: none;
+}
+.h4_css
+{
+    padding: 10px;
+}
+.ul{
+    display: inline-block;
+    float: right;
+    margin-right: 12px;
+}
+.ul .li{
+    display: inline-block;
+    position: relative;
+}
+.ul .li a{
+    color: grey;
+    display: inline-block;
+    padding: 10px;
+}
+.ul .li a:hover{
+    background-color: #f6f6f6;
+    color: #222;
+    text-decoration: none;
+}
+.ul .li a i{
+    color: #2caaff;
+}
+
+
+.ul .li .ul
+{
+    background-color: #fff;
+    display: none;
+    float: none;
+    position: absolute;
+    width: 200px;
+}
+
+.btn-dropdown
+{
+    background-color: #fff;
+    border: none;
+    color: grey;
+    padding: 10px;
+}
+.btn-dropdown:hover{
+    background-color: #f6f6f6;
+    color: #222;
+}
+.btn-dropdown:active,
+.btn-dropdown:focus
+{
+    outline: none;
+    border: none;
+}
+.dropdown button i
+{
+    color: #2caaff;
+}
+.form_search
+{
+    display: none;  
+}
